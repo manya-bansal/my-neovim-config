@@ -100,6 +100,7 @@ return {
           "tailwindcss",
           "tsserver",
           "hls",
+          "pyright",
           -- linter
           -- "eslint_d",
           -- formatter
