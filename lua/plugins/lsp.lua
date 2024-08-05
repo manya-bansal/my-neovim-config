@@ -229,6 +229,8 @@ return {
           null_ls.builtins.formatting.prettierd,
           null_ls.builtins.diagnostics.eslint_d,
           null_ls.builtins.code_actions.eslint_d,
+          null_ls.builtins.formatting.black,
+          null_ls.builtins.diagnostics.pylint,
           null_ls.builtins.formatting.clang_format.with({
             filetypes = { "c", "cc", "cpp", "cs", "java", "cuda", "proto" },
           }),
